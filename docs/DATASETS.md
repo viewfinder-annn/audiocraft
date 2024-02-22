@@ -61,6 +61,7 @@ python -m audiocraft.data.audio_dataset <path_to_dataset_folder> egs/my_dataset/
 # For example to generate the manifest for dset=audio/example
 # note: we don't use any split and we don't compress the jsonl file for this dummy example
 python -m audiocraft.data.audio_dataset dataset/example egs/example/data.jsonl
+python -m audiocraft.data.audio_dataset /home/wangyuancheng.p/zja/music/MusicCaps egs/musiccaps/data.jsonl
 
 # More info with: python -m audiocraft.data.audio_dataset --help
 ```

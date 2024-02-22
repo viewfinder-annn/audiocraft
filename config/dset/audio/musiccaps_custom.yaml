@@ -1,0 +1,12 @@
+# @package __global__
+
+# total samples obtained from MusicCaps = 5469
+# (out of 5521 due to AudioSet corrupted samples)
+datasource:
+  max_sample_rate: 32000
+  max_channels: 2
+
+  train: egs/musiccaps/train  # only evaluation set
+  valid: egs/musiccaps/val  # only evaluation set
+  evaluate: egs/musiccaps/val
+  generate: egs/musiccaps/val # identical to evaluate

@@ -1,0 +1,2 @@
+nohup dora run solver=musicgen/musicgen_small_32khz -d >> musicgen_small_32khz.log &
+nohup dora run solver=musicgen/musicgen_small_32khz_musiccaps >> musicgen_small_32khz_musiccaps.log &
