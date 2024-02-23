@@ -1,0 +1,483 @@
+INFO:dora.utils:Could not import module audiocraft.train
+Traceback (most recent call last):
+  File "/home/wangyuancheng.p/miniconda3/envs/audiocraft/lib/python3.9/site-packages/dora/utils.py", line 77, in import_or_fatal
+    return importlib.import_module(module_name)
+  File "/home/wangyuancheng.p/miniconda3/envs/audiocraft/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 972, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/wangyuancheng.p/zja/audiocraft/audiocraft/__init__.py", line 24, in <module>
+    from . import data, modules, models
+  File "/home/wangyuancheng.p/zja/audiocraft/audiocraft/data/__init__.py", line 10, in <module>
+    from . import audio, audio_dataset, info_audio_dataset, music_dataset, sound_dataset
+  File "/home/wangyuancheng.p/zja/audiocraft/audiocraft/data/info_audio_dataset.py", line 19, in <module>
+    from ..modules.conditioners import SegmentWithAttributes, ConditioningAttributes
+  File "/home/wangyuancheng.p/zja/audiocraft/audiocraft/modules/__init__.py", line 20, in <module>
+    from .lstm import StreamableLSTM
+ModuleNotFoundError: No module named 'audiocraft.modules.lstm'
+[1mFATAL:[0m Failed to import module audiocraft.train.
+INFO:dora.utils:Could not import module audiocraft.train
+Traceback (most recent call last):
+  File "/home/wangyuancheng.p/miniconda3/envs/audiocraft/lib/python3.9/site-packages/dora/utils.py", line 77, in import_or_fatal
+    return importlib.import_module(module_name)
+  File "/home/wangyuancheng.p/miniconda3/envs/audiocraft/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 972, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/wangyuancheng.p/zja/audiocraft/audiocraft/__init__.py", line 24, in <module>
+    from . import data, modules, models
+  File "/home/wangyuancheng.p/zja/audiocraft/audiocraft/data/__init__.py", line 10, in <module>
+    from . import audio, audio_dataset, info_audio_dataset, music_dataset, sound_dataset
+ImportError: cannot import name 'sound_dataset' from partially initialized module 'audiocraft.data' (most likely due to a circular import) (/home/wangyuancheng.p/zja/audiocraft/audiocraft/data/__init__.py)
+[1mFATAL:[0m Failed to import module audiocraft.train.
+INFO:dora.utils:Could not import module audiocraft.train
+Traceback (most recent call last):
+  File "/home/wangyuancheng.p/miniconda3/envs/audiocraft/lib/python3.9/site-packages/dora/utils.py", line 77, in import_or_fatal
+    return importlib.import_module(module_name)
+  File "/home/wangyuancheng.p/miniconda3/envs/audiocraft/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 972, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/wangyuancheng.p/zja/audiocraft/audiocraft/__init__.py", line 24, in <module>
+    from . import data, modules, models
+  File "/home/wangyuancheng.p/zja/audiocraft/audiocraft/models/__init__.py", line 10, in <module>
+    from . import builders, loaders
+  File "/home/wangyuancheng.p/zja/audiocraft/audiocraft/models/builders.py", line 19, in <module>
+    from .lm import LMModel
+  File "/home/wangyuancheng.p/zja/audiocraft/audiocraft/models/lm.py", line 28, in <module>
+    from ..modules.activations import get_activation_fn
+ModuleNotFoundError: No module named 'audiocraft.modules.activations'
+[1mFATAL:[0m Failed to import module audiocraft.train.
+INFO:dora.utils:Could not import module audiocraft.train
+Traceback (most recent call last):
+  File "/home/wangyuancheng.p/miniconda3/envs/audiocraft/lib/python3.9/site-packages/dora/utils.py", line 77, in import_or_fatal
+    return importlib.import_module(module_name)
+  File "/home/wangyuancheng.p/miniconda3/envs/audiocraft/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 972, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/wangyuancheng.p/zja/audiocraft/audiocraft/__init__.py", line 24, in <module>
+    from . import data, modules, models
+  File "/home/wangyuancheng.p/zja/audiocraft/audiocraft/models/__init__.py", line 10, in <module>
+    from . import builders, loaders
+  File "/home/wangyuancheng.p/zja/audiocraft/audiocraft/models/builders.py", line 20, in <module>
+    from .lm_magnet import MagnetLMModel
+ModuleNotFoundError: No module named 'audiocraft.models.lm_magnet'
+[1mFATAL:[0m Failed to import module audiocraft.train.
+INFO:dora.utils:Could not import module audiocraft.train
+Traceback (most recent call last):
+  File "/home/wangyuancheng.p/miniconda3/envs/audiocraft/lib/python3.9/site-packages/dora/utils.py", line 77, in import_or_fatal
+    return importlib.import_module(module_name)
+  File "/home/wangyuancheng.p/miniconda3/envs/audiocraft/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 972, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/wangyuancheng.p/zja/audiocraft/audiocraft/__init__.py", line 24, in <module>
+    from . import data, modules, models
+  File "/home/wangyuancheng.p/zja/audiocraft/audiocraft/models/__init__.py", line 14, in <module>
+    from .audiogen import AudioGen
+ModuleNotFoundError: No module named 'audiocraft.models.audiogen'
+[1mFATAL:[0m Failed to import module audiocraft.train.
+Dora directory: /nvme/amphion/zhfang/zja
+[1mExecutor:[0m Starting 8 worker processes for DDP.
+Dora directory: /nvme/amphion/zhfang/zja
+/home/wangyuancheng.p/miniconda3/envs/audiocraft/lib/python3.9/site-packages/hydra/_internal/hydra.py:119: UserWarning: Future Hydra versions will no longer change working directory at job runtime by default.
+See https://hydra.cc/docs/1.2/upgrades/1.1_to_1.2/changes_to_job_working_dir/ for more information.
+  ret = run_job(
+[[36m02-23 13:30:26[0m][[34mtorch.distributed.distributed_c10d[0m][[32mINFO[0m] - Added key: store_based_barrier_key:1 to store for rank: 0[0m
+[[36m02-23 13:30:26[0m][[34mtorch.distributed.distributed_c10d[0m][[32mINFO[0m] - Rank 0: Completed store-based barrier for key:store_based_barrier_key:1 with 8 nodes.[0m
+[[36m02-23 13:30:26[0m][[34mdora.distrib[0m][[32mINFO[0m] - Distributed init: 0/8 (local 0) from env[0m
+Error executing job with overrides: ['solver=musicgen/debug']
+Traceback (most recent call last):
+  File "/home/wangyuancheng.p/zja/audiocraft/audiocraft/train.py", line 139, in main
+    solver = get_solver(cfg)
+  File "/home/wangyuancheng.p/zja/audiocraft/audiocraft/train.py", line 39, in get_solver
+    from . import solvers
+  File "/home/wangyuancheng.p/zja/audiocraft/audiocraft/solvers/__init__.py", line 12, in <module>
+    from .audiogen import AudioGenSolver
+ModuleNotFoundError: No module named 'audiocraft.solvers.audiogen'
+
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.
+[1mExecutor:[0m Worker 4 died, killing all workers
+[1mExecutor:[0m Worker 6 died, killing all workers
+Dora directory: /nvme/amphion/zhfang/zja
+[1mExecutor:[0m Starting 8 worker processes for DDP.
+Dora directory: /nvme/amphion/zhfang/zja
+/home/wangyuancheng.p/miniconda3/envs/audiocraft/lib/python3.9/site-packages/hydra/_internal/hydra.py:119: UserWarning: Future Hydra versions will no longer change working directory at job runtime by default.
+See https://hydra.cc/docs/1.2/upgrades/1.1_to_1.2/changes_to_job_working_dir/ for more information.
+  ret = run_job(
+[[36m02-23 13:30:48[0m][[34mtorch.distributed.distributed_c10d[0m][[32mINFO[0m] - Added key: store_based_barrier_key:1 to store for rank: 0[0m
+[[36m02-23 13:30:48[0m][[34mtorch.distributed.distributed_c10d[0m][[32mINFO[0m] - Rank 0: Completed store-based barrier for key:store_based_barrier_key:1 with 8 nodes.[0m
+[[36m02-23 13:30:48[0m][[34mdora.distrib[0m][[32mINFO[0m] - Distributed init: 0/8 (local 0) from env[0m
+[[36m02-23 13:30:49[0m][[34mtorch.distributed.nn.jit.instantiator[0m][[32mINFO[0m] - Created a temporary directory at /tmp/tmpkd0zhgzc[0m
+[[36m02-23 13:30:49[0m][[34mtorch.distributed.nn.jit.instantiator[0m][[32mINFO[0m] - Writing /tmp/tmpkd0zhgzc/_remote_module_non_scriptable.py[0m
+Error executing job with overrides: ['solver=musicgen/debug']
+Traceback (most recent call last):
+  File "/home/wangyuancheng.p/zja/audiocraft/audiocraft/train.py", line 139, in main
+    solver = get_solver(cfg)
+  File "/home/wangyuancheng.p/zja/audiocraft/audiocraft/train.py", line 41, in get_solver
+    assert cfg.dataset.batch_size % flashy.distrib.world_size() == 0
+AssertionError
+
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.
+[1mExecutor:[0m Worker 0 died, killing all workers
+[1mExecutor:[0m Worker 1 died, killing all workers
+[1mExecutor:[0m Worker 2 died, killing all workers
+[1mExecutor:[0m Worker 3 died, killing all workers
+[1mExecutor:[0m Worker 4 died, killing all workers
+[1mExecutor:[0m Worker 5 died, killing all workers
+[1mExecutor:[0m Worker 6 died, killing all workers
+[1mExecutor:[0m Worker 7 died, killing all workers
+Dora directory: /nvme/amphion/zhfang/zja
+/home/wangyuancheng.p/miniconda3/envs/audiocraft/lib/python3.9/site-packages/hydra/_internal/hydra.py:119: UserWarning: Future Hydra versions will no longer change working directory at job runtime by default.
+See https://hydra.cc/docs/1.2/upgrades/1.1_to_1.2/changes_to_job_working_dir/ for more information.
+  ret = run_job(
+[[36m02-23 13:31:05[0m][[34mdora.distrib[0m][[32mINFO[0m] - world_size is 1, skipping init.[0m
+[[36m02-23 13:31:05[0m][[34mtorch.distributed.nn.jit.instantiator[0m][[32mINFO[0m] - Created a temporary directory at /tmp/tmpp65f270m[0m
+[[36m02-23 13:31:05[0m][[34mtorch.distributed.nn.jit.instantiator[0m][[32mINFO[0m] - Writing /tmp/tmpp65f270m/_remote_module_non_scriptable.py[0m
+[[36m02-23 13:31:06[0m][[34mflashy.solver[0m][[32mINFO[0m] - Instantiating solver MusicGenSolver for XP 819cf66b[0m
+[[36m02-23 13:31:06[0m][[34mflashy.solver[0m][[32mINFO[0m] - All XP logs are stored in /nvme/amphion/zhfang/zja/xps/819cf66b[0m
+/home/wangyuancheng.p/miniconda3/envs/audiocraft/lib/python3.9/site-packages/flashy/loggers/tensorboard.py:47: UserWarning: tensorboard package was not found: use pip install tensorboard
+  warnings.warn("tensorboard package was not found: use pip install tensorboard")
+[[36m02-23 13:31:06[0m][[34maudiocraft.solvers.builders[0m][[32mINFO[0m] - Loading audio data split train: /home/wangyuancheng.p/zja/audiocraft/egs/example[0m
+[[36m02-23 13:31:06[0m][[34maudiocraft.solvers.builders[0m][[32mINFO[0m] - Loading audio data split valid: /home/wangyuancheng.p/zja/audiocraft/egs/example[0m
+[[36m02-23 13:31:06[0m][[34maudiocraft.solvers.builders[0m][[32mINFO[0m] - Loading audio data split evaluate: /home/wangyuancheng.p/zja/audiocraft/egs/example[0m
+[[36m02-23 13:31:06[0m][[34maudiocraft.solvers.builders[0m][[32mINFO[0m] - Loading audio data split generate: /home/wangyuancheng.p/zja/audiocraft/egs/example[0m
+[[36m02-23 13:31:06[0m][[34mroot[0m][[32mINFO[0m] - Getting pretrained compression model for debug[0m
+Error executing job with overrides: ['solver=musicgen/debug']
+Traceback (most recent call last):
+  File "/home/wangyuancheng.p/zja/audiocraft/audiocraft/train.py", line 139, in main
+    solver = get_solver(cfg)
+  File "/home/wangyuancheng.p/zja/audiocraft/audiocraft/train.py", line 48, in get_solver
+    solver = solvers.get_solver(cfg)
+  File "/home/wangyuancheng.p/zja/audiocraft/audiocraft/solvers/builders.py", line 59, in get_solver
+    return klass(cfg)  # type: ignore
+  File "/home/wangyuancheng.p/zja/audiocraft/audiocraft/solvers/musicgen.py", line 39, in __init__
+    super().__init__(cfg)
+  File "/home/wangyuancheng.p/zja/audiocraft/audiocraft/solvers/base.py", line 79, in __init__
+    self.build_model()
+  File "/home/wangyuancheng.p/zja/audiocraft/audiocraft/solvers/musicgen.py", line 117, in build_model
+    self.compression_model = CompressionSolver.wrapped_model_from_checkpoint(
+  File "/home/wangyuancheng.p/zja/audiocraft/audiocraft/solvers/compression.py", line 315, in wrapped_model_from_checkpoint
+    compression_model = CompressionSolver.model_from_checkpoint(checkpoint_path, device)
+  File "/home/wangyuancheng.p/zja/audiocraft/audiocraft/solvers/compression.py", line 284, in model_from_checkpoint
+    return models.CompressionModel.get_pretrained(name, device)
+  File "/home/wangyuancheng.p/zja/audiocraft/audiocraft/models/encodec.py", line 113, in get_pretrained
+    model = builders.get_debug_compression_model()
+  File "/home/wangyuancheng.p/zja/audiocraft/audiocraft/models/builders.py", line 202, in get_debug_compression_model
+    encoder = audiocraft.modules.SEANetEncoder(**seanet_kwargs)
+AttributeError: module 'audiocraft.modules' has no attribute 'SEANetEncoder'
+
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.
+Dora directory: /nvme/amphion/zhfang/zja
+/home/wangyuancheng.p/miniconda3/envs/audiocraft/lib/python3.9/site-packages/hydra/_internal/hydra.py:119: UserWarning: Future Hydra versions will no longer change working directory at job runtime by default.
+See https://hydra.cc/docs/1.2/upgrades/1.1_to_1.2/changes_to_job_working_dir/ for more information.
+  ret = run_job(
+[[36m02-23 13:33:01[0m][[34mdora.distrib[0m][[32mINFO[0m] - world_size is 1, skipping init.[0m
+[[36m02-23 13:33:01[0m][[34mtorch.distributed.nn.jit.instantiator[0m][[32mINFO[0m] - Created a temporary directory at /tmp/tmpow_jb9r2[0m
+[[36m02-23 13:33:01[0m][[34mtorch.distributed.nn.jit.instantiator[0m][[32mINFO[0m] - Writing /tmp/tmpow_jb9r2/_remote_module_non_scriptable.py[0m
+[[36m02-23 13:33:02[0m][[34mflashy.solver[0m][[32mINFO[0m] - Instantiating solver MusicGenSolver for XP 819cf66b[0m
+[[36m02-23 13:33:02[0m][[34mflashy.solver[0m][[32mINFO[0m] - All XP logs are stored in /nvme/amphion/zhfang/zja/xps/819cf66b[0m
+/home/wangyuancheng.p/miniconda3/envs/audiocraft/lib/python3.9/site-packages/flashy/loggers/tensorboard.py:47: UserWarning: tensorboard package was not found: use pip install tensorboard
+  warnings.warn("tensorboard package was not found: use pip install tensorboard")
+[[36m02-23 13:33:02[0m][[34maudiocraft.solvers.builders[0m][[32mINFO[0m] - Loading audio data split train: /home/wangyuancheng.p/zja/audiocraft/egs/example[0m
+[[36m02-23 13:33:02[0m][[34maudiocraft.solvers.builders[0m][[32mINFO[0m] - Loading audio data split valid: /home/wangyuancheng.p/zja/audiocraft/egs/example[0m
+[[36m02-23 13:33:02[0m][[34maudiocraft.solvers.builders[0m][[32mINFO[0m] - Loading audio data split evaluate: /home/wangyuancheng.p/zja/audiocraft/egs/example[0m
+[[36m02-23 13:33:02[0m][[34maudiocraft.solvers.builders[0m][[32mINFO[0m] - Loading audio data split generate: /home/wangyuancheng.p/zja/audiocraft/egs/example[0m
+[[36m02-23 13:33:02[0m][[34mroot[0m][[32mINFO[0m] - Getting pretrained compression model for debug[0m
+[[36m02-23 13:33:07[0m][[34mflashy.solver[0m][[32mINFO[0m] - Compression model has 4 codebooks with 400 cardinality, and a framerate of 25[0m
+[[36m02-23 13:33:07[0m][[34maudiocraft.modules.conditioners[0m][[32mINFO[0m] - T5 will be evaluated with autocast as float32[0m
+[[36m02-23 13:33:28[0m][[34mflashy.solver[0m][[32mINFO[0m] - Model hash: 9748ac40b484ad07324312d18ce0208d6139110c[0m
+[[36m02-23 13:33:28[0m][[34mflashy.solver[0m][[32mINFO[0m] - No EMA on the model.[0m
+[[36m02-23 13:33:28[0m][[34mflashy.solver[0m][[32mINFO[0m] - Model size: 0.37 M params[0m
+[[36m02-23 13:33:28[0m][[34mflashy.solver[0m][[32mINFO[0m] - Base memory usage, with model, grad and optim: 0.01 GB[0m
+[[36m02-23 13:33:28[0m][[34mflashy.solver[0m][[32mINFO[0m] - Restoring weights and history.[0m
+[[36m02-23 13:33:28[0m][[34mflashy.solver[0m][[32mINFO[0m] - Model hash: 9748ac40b484ad07324312d18ce0208d6139110c[0m
+/home/wangyuancheng.p/zja/audiocraft/audiocraft/solvers/musicgen.py:263: UserWarning: Up to version 1.0.1, the _prepare_tokens_and_attributes was evaluated with `torch.no_grad()`. This is inconsistent with how model were trained in the MusicGen paper. We removed the `torch.no_grad()` in version 1.1.0. Small changes to the final performance are expected. Really sorry about that.
+  warnings.warn(
+[[36m02-23 13:33:35[0m][[34maudiocraft.modules.codebooks_patterns[0m][[32mINFO[0m] - New pattern, time steps: 125, sequence steps: 126[0m
+/home/wangyuancheng.p/miniconda3/envs/audiocraft/lib/python3.9/site-packages/torch/cuda/__init__.py:762: UserWarning: Synchronization debug mode is a prototype feature and does not yet detect all synchronizing operations (Triggered internally at ../torch/csrc/cuda/Module.cpp:830.)
+  torch._C._cuda_set_sync_debug_mode(debug_mode)
+/home/wangyuancheng.p/zja/audiocraft/audiocraft/solvers/musicgen.py:237: UserWarning: called a synchronizing CUDA operation (Triggered internally at ../c10/cuda/CUDAFunctions.cpp:148.)
+  ce_targets = targets_k[mask_k]
+/home/wangyuancheng.p/zja/audiocraft/audiocraft/solvers/musicgen.py:238: UserWarning: called a synchronizing CUDA operation (Triggered internally at ../c10/cuda/CUDAFunctions.cpp:148.)
+  ce_logits = logits_k[mask_k]
+[[36m02-23 13:33:35[0m][[34mflashy.solver[0m][[32mINFO[0m] - Train | Epoch 1 | 1/10 | 0.26 it/sec | lr 1.00E-04 | grad_norm 4.160E+00 | ce 5.959 | ppl 387.919[0m
+[[36m02-23 13:33:35[0m][[34mflashy.solver[0m][[32mINFO[0m] - Train | Epoch 1 | 2/10 | 0.39 it/sec | lr 1.00E-04 | grad_norm 4.281E+00 | ce 5.874 | ppl 355.811[0m
+[[36m02-23 13:33:36[0m][[34mflashy.solver[0m][[32mINFO[0m] - Train | Epoch 1 | 3/10 | 0.52 it/sec | lr 1.00E-04 | grad_norm 4.034E+00 | ce 5.831 | ppl 340.562[0m
+[[36m02-23 13:33:36[0m][[34mflashy.solver[0m][[32mINFO[0m] - Train | Epoch 1 | 4/10 | 0.65 it/sec | lr 1.00E-04 | grad_norm 4.027E+00 | ce 5.771 | ppl 320.928[0m
+[[36m02-23 13:33:36[0m][[34mflashy.solver[0m][[32mINFO[0m] - Train | Epoch 1 | 5/10 | 0.78 it/sec | lr 1.00E-04 | grad_norm 4.097E+00 | ce 5.645 | ppl 282.939[0m
+[[36m02-23 13:33:36[0m][[34mflashy.solver[0m][[32mINFO[0m] - Train | Epoch 1 | 6/10 | 0.90 it/sec | lr 1.00E-04 | grad_norm 3.856E+00 | ce 5.632 | ppl 279.248[0m
+[[36m02-23 13:33:36[0m][[34mflashy.solver[0m][[32mINFO[0m] - Train | Epoch 1 | 7/10 | 1.03 it/sec | lr 1.00E-04 | grad_norm 3.880E+00 | ce 5.550 | ppl 257.301[0m
+[[36m02-23 13:33:36[0m][[34mflashy.solver[0m][[32mINFO[0m] - Train | Epoch 1 | 8/10 | 1.15 it/sec | lr 1.00E-04 | grad_norm 3.867E+00 | ce 5.498 | ppl 244.263[0m
+[[36m02-23 13:33:36[0m][[34mflashy.solver[0m][[32mINFO[0m] - Train | Epoch 1 | 9/10 | 1.28 it/sec | lr 1.00E-04 | grad_norm 3.804E+00 | ce 5.400 | ppl 221.465[0m
+[[36m02-23 13:33:36[0m][[34mflashy.solver[0m][[32mINFO[0m] - [1mTrain Summary | Epoch 1 | lr=1.00E-04 | grad_norm=4.017E+00 | ce=5.712 | ppl=307.836 | duration=8.353[0m
+[[36m02-23 13:33:45[0m][[34mflashy.solver[0m][[32mINFO[0m] - Valid | Epoch 1 | 250/2500 | 26.92 it/sec | ce 5.359 | ppl 212.457[0m
+[[36m02-23 13:33:50[0m][[34mflashy.solver[0m][[32mINFO[0m] - Valid | Epoch 1 | 500/2500 | 34.97 it/sec | ce 5.357 | ppl 212.133[0m
+[[36m02-23 13:33:55[0m][[34mflashy.solver[0m][[32mINFO[0m] - Valid | Epoch 1 | 750/2500 | 38.98 it/sec | ce 5.359 | ppl 212.490[0m
+[[36m02-23 13:34:00[0m][[34mflashy.solver[0m][[32mINFO[0m] - Valid | Epoch 1 | 1000/2500 | 41.23 it/sec | ce 5.355 | ppl 211.798[0m
+[[36m02-23 13:34:06[0m][[34mflashy.solver[0m][[32mINFO[0m] - Valid | Epoch 1 | 1250/2500 | 42.06 it/sec | ce 5.356 | ppl 211.982[0m
+[[36m02-23 13:34:12[0m][[34mflashy.solver[0m][[32mINFO[0m] - Valid | Epoch 1 | 1500/2500 | 41.90 it/sec | ce 5.356 | ppl 211.983[0m
+[[36m02-23 13:34:17[0m][[34mflashy.solver[0m][[32mINFO[0m] - Valid | Epoch 1 | 1750/2500 | 42.62 it/sec | ce 5.355 | ppl 211.711[0m
+[[36m02-23 13:34:22[0m][[34mflashy.solver[0m][[32mINFO[0m] - Valid | Epoch 1 | 2000/2500 | 43.08 it/sec | ce 5.357 | ppl 212.076[0m
+[[36m02-23 13:34:27[0m][[34mflashy.solver[0m][[32mINFO[0m] - Valid | Epoch 1 | 2250/2500 | 43.71 it/sec | ce 5.355 | ppl 211.762[0m
+[[36m02-23 13:34:33[0m][[34mflashy.solver[0m][[32mINFO[0m] - [1mValid Summary | Epoch 1 | ce=5.356 | ppl=212.007 | duration=56.614[0m
+[[36m02-23 13:34:33[0m][[34mflashy.solver[0m][[32mINFO[0m] - New best state with ce=5.356 (was inf)[0m
+[[36m02-23 13:34:33[0m][[34mflashy.solver[0m][[32mINFO[0m] - Model hash: 7907d8c5fa6ac806954a114e0650df74130462a0[0m
+[[36m02-23 13:34:33[0m][[34maudiocraft.utils.checkpoint[0m][[32mINFO[0m] - Checkpoint saved to /nvme/amphion/zhfang/zja/xps/819cf66b/checkpoint.th[0m
+[[36m02-23 13:34:37[0m][[34mflashy.solver[0m][[32mINFO[0m] - Train | Epoch 2 | 1/10 | 0.44 it/sec | lr 1.00E-04 | grad_norm 3.638E+00 | ce 5.332 | ppl 207.062[0m
+[[36m02-23 13:34:37[0m][[34mflashy.solver[0m][[32mINFO[0m] - Train | Epoch 2 | 2/10 | 0.65 it/sec | lr 1.00E-04 | grad_norm 3.540E+00 | ce 5.239 | ppl 188.396[0m
+[[36m02-23 13:34:37[0m][[34mflashy.solver[0m][[32mINFO[0m] - Train | Epoch 2 | 3/10 | 0.86 it/sec | lr 1.00E-04 | grad_norm 3.851E+00 | ce 5.158 | ppl 173.881[0m
+[[36m02-23 13:34:37[0m][[34mflashy.solver[0m][[32mINFO[0m] - Train | Epoch 2 | 4/10 | 1.07 it/sec | lr 1.00E-04 | grad_norm 3.420E+00 | ce 5.193 | ppl 179.995[0m
+[[36m02-23 13:34:37[0m][[34mflashy.solver[0m][[32mINFO[0m] - Train | Epoch 2 | 5/10 | 1.28 it/sec | lr 1.00E-04 | grad_norm 3.474E+00 | ce 5.070 | ppl 159.178[0m
+[[36m02-23 13:34:37[0m][[34mflashy.solver[0m][[32mINFO[0m] - Train | Epoch 2 | 6/10 | 1.48 it/sec | lr 1.00E-04 | grad_norm 3.477E+00 | ce 5.048 | ppl 155.671[0m
+[[36m02-23 13:34:37[0m][[34mflashy.solver[0m][[32mINFO[0m] - Train | Epoch 2 | 7/10 | 1.69 it/sec | lr 1.00E-04 | grad_norm 3.357E+00 | ce 4.952 | ppl 141.517[0m
+[[36m02-23 13:34:37[0m][[34mflashy.solver[0m][[32mINFO[0m] - Train | Epoch 2 | 8/10 | 1.89 it/sec | lr 1.00E-04 | grad_norm 3.481E+00 | ce 4.940 | ppl 139.720[0m
+[[36m02-23 13:34:38[0m][[34mflashy.solver[0m][[32mINFO[0m] - Train | Epoch 2 | 9/10 | 2.09 it/sec | lr 1.00E-04 | grad_norm 3.430E+00 | ce 4.833 | ppl 125.630[0m
+[[36m02-23 13:34:38[0m][[34mflashy.solver[0m][[32mINFO[0m] - [1mTrain Summary | Epoch 2 | lr=1.00E-04 | grad_norm=3.531E+00 | ce=5.110 | ppl=167.811 | duration=5.202[0m
+[[36m02-23 13:34:48[0m][[34mflashy.solver[0m][[32mINFO[0m] - Valid | Epoch 2 | 250/2500 | 25.73 it/sec | ce 4.838 | ppl 126.332[0m
+[[36m02-23 13:34:52[0m][[34mflashy.solver[0m][[32mINFO[0m] - Valid | Epoch 2 | 500/2500 | 34.27 it/sec | ce 4.836 | ppl 125.964[0m
+[[36m02-23 13:34:57[0m][[34mflashy.solver[0m][[32mINFO[0m] - Valid | Epoch 2 | 750/2500 | 38.19 it/sec | ce 4.839 | ppl 126.346[0m
+[[36m02-23 13:35:03[0m][[34mflashy.solver[0m][[32mINFO[0m] - Valid | Epoch 2 | 1000/2500 | 40.27 it/sec | ce 4.833 | ppl 125.620[0m
+[[36m02-23 13:35:08[0m][[34mflashy.solver[0m][[32mINFO[0m] - Valid | Epoch 2 | 1250/2500 | 41.69 it/sec | ce 4.835 | ppl 125.942[0m
+[[36m02-23 13:35:13[0m][[34mflashy.solver[0m][[32mINFO[0m] - Valid | Epoch 2 | 1500/2500 | 42.76 it/sec | ce 4.836 | ppl 125.997[0m
+[[36m02-23 13:35:18[0m][[34mflashy.solver[0m][[32mINFO[0m] - Valid | Epoch 2 | 1750/2500 | 43.05 it/sec | ce 4.833 | ppl 125.638[0m
+[[36m02-23 13:35:24[0m][[34mflashy.solver[0m][[32mINFO[0m] - Valid | Epoch 2 | 2000/2500 | 43.28 it/sec | ce 4.835 | ppl 125.845[0m
+[[36m02-23 13:35:29[0m][[34mflashy.solver[0m][[32mINFO[0m] - Valid | Epoch 2 | 2250/2500 | 43.95 it/sec | ce 4.833 | ppl 125.661[0m
+[[36m02-23 13:35:35[0m][[34mflashy.solver[0m][[32mINFO[0m] - [1mValid Summary | Epoch 2 | ce=4.835 | ppl=125.891 | duration=56.976[0m
+[[36m02-23 13:35:35[0m][[34mflashy.solver[0m][[32mINFO[0m] - New best state with ce=4.835 (was 5.356)[0m
+[[36m02-23 13:35:35[0m][[34mflashy.solver[0m][[32mINFO[0m] - [1mEvaluate Summary | Epoch 2 | duration=0.000[0m
+[[36m02-23 13:35:35[0m][[34mflashy.solver[0m][[32mINFO[0m] - Generating samples in /nvme/amphion/zhfang/zja/xps/819cf66b/samples[0m
+[[36m02-23 13:35:42[0m][[34maudiocraft.utils.samples.manager[0m][[33mWARNING[0m] - Overwriting existing audio file with stem path /nvme/amphion/zhfang/zja/xps/819cf66b/samples/2/2ed2312084a3bf805eb2d4364410e8f4aa020582_unprompted_description=a-cool-song-from-voyager[0m
+[[36m02-23 13:35:42[0m][[34maudiocraft.utils.samples.manager[0m][[33mWARNING[0m] - Overwriting existing audio file with stem path /nvme/amphion/zhfang/zja/xps/819cf66b/samples/2/39ed1de191331283bff003300245d51a6003d131_unprompted_description=this-is-an-electronic-song-sending-positive-vibes[0m
+[[36m02-23 13:35:42[0m][[34maudiocraft.utils.samples.manager[0m][[33mWARNING[0m] - Overwriting existing audio file with stem path /nvme/amphion/zhfang/zja/xps/819cf66b/samples/2/6b1289ba4ff74aad6306774e9c27454b0f1fc292_unprompted_description=a-cool-song-from-voyager[0m
+[[36m02-23 13:35:44[0m][[34mflashy.solver[0m][[32mINFO[0m] - Generate | Epoch 2 | 1/13 | 0.22 it/sec[0m
+[[36m02-23 13:35:45[0m][[34maudiocraft.utils.samples.manager[0m][[33mWARNING[0m] - Overwriting existing audio file with stem path /nvme/amphion/zhfang/zja/xps/819cf66b/samples/2/b781e7798dc66bf7f9d053d2dff8e8701b5c0ef8_unprompted_description=this-is-an-electronic-song-sending-positive-vibes[0m
+[[36m02-23 13:35:46[0m][[34mflashy.solver[0m][[32mINFO[0m] - Generate | Epoch 2 | 2/13 | 0.27 it/sec[0m
+[[36m02-23 13:35:46[0m][[34maudiocraft.utils.samples.manager[0m][[33mWARNING[0m] - Overwriting existing audio file with stem path /nvme/amphion/zhfang/zja/xps/819cf66b/samples/2/701d64d8da3c1aeb32677569efdebd7152e3c9f9_unprompted_description=this-is-an-electronic-song-sending-positive-vibes[0m
+[[36m02-23 13:35:47[0m][[34maudiocraft.utils.samples.manager[0m][[33mWARNING[0m] - Overwriting existing audio file with stem path /nvme/amphion/zhfang/zja/xps/819cf66b/samples/2/865af00379dfc01040fec2d135325f4993761ada_unprompted_description=a-cool-song-from-voyager[0m
+[[36m02-23 13:35:47[0m][[34maudiocraft.utils.samples.manager[0m][[33mWARNING[0m] - Overwriting existing audio file with stem path /nvme/amphion/zhfang/zja/xps/819cf66b/samples/2/6ef3dac9e7722d1b383ae4b665a2638090036d38_unprompted_description=this-is-an-electronic-song-sending-positive-vibes[0m
+[[36m02-23 13:35:47[0m][[34maudiocraft.utils.samples.manager[0m][[33mWARNING[0m] - Overwriting existing audio file with stem path /nvme/amphion/zhfang/zja/xps/819cf66b/samples/2/c7d6f97696849dc4fc78b0e25125baba9f490e30_unprompted_description=a-cool-song-from-voyager[0m
+[[36m02-23 13:35:48[0m][[34mflashy.solver[0m][[32mINFO[0m] - Generate | Epoch 2 | 3/13 | 0.30 it/sec[0m
+[[36m02-23 13:35:48[0m][[34maudiocraft.utils.samples.manager[0m][[33mWARNING[0m] - Overwriting existing audio file with stem path /nvme/amphion/zhfang/zja/xps/819cf66b/samples/2/701d64d8da3c1aeb32677569efdebd7152e3c9f9_unprompted_description=this-is-an-electronic-song-sending-positive-vibes[0m
+[[36m02-23 13:35:49[0m][[34maudiocraft.utils.samples.manager[0m][[33mWARNING[0m] - Overwriting existing audio file with stem path /nvme/amphion/zhfang/zja/xps/819cf66b/samples/2/39ed1de191331283bff003300245d51a6003d131_unprompted_description=this-is-an-electronic-song-sending-positive-vibes[0m
+[[36m02-23 13:35:49[0m][[34maudiocraft.utils.samples.manager[0m][[33mWARNING[0m] - Overwriting existing audio file with stem path /nvme/amphion/zhfang/zja/xps/819cf66b/samples/2/6b1289ba4ff74aad6306774e9c27454b0f1fc292_unprompted_description=a-cool-song-from-voyager[0m
+[[36m02-23 13:35:49[0m][[34maudiocraft.utils.samples.manager[0m][[33mWARNING[0m] - Overwriting existing audio file with stem path /nvme/amphion/zhfang/zja/xps/819cf66b/samples/2/b781e7798dc66bf7f9d053d2dff8e8701b5c0ef8_unprompted_description=this-is-an-electronic-song-sending-positive-vibes[0m
+[[36m02-23 13:35:50[0m][[34mflashy.solver[0m][[32mINFO[0m] - Generate | Epoch 2 | 4/13 | 0.32 it/sec[0m
+[[36m02-23 13:35:51[0m][[34maudiocraft.utils.samples.manager[0m][[33mWARNING[0m] - Overwriting existing audio file with stem path /nvme/amphion/zhfang/zja/xps/819cf66b/samples/2/701d64d8da3c1aeb32677569efdebd7152e3c9f9_unprompted_description=this-is-an-electronic-song-sending-positive-vibes[0m
+[[36m02-23 13:35:51[0m][[34maudiocraft.utils.samples.manager[0m][[33mWARNING[0m] - Overwriting existing audio file with stem path /nvme/amphion/zhfang/zja/xps/819cf66b/samples/2/39ed1de191331283bff003300245d51a6003d131_unprompted_description=this-is-an-electronic-song-sending-positive-vibes[0m
+[[36m02-23 13:35:51[0m][[34maudiocraft.utils.samples.manager[0m][[33mWARNING[0m] - Overwriting existing audio file with stem path /nvme/amphion/zhfang/zja/xps/819cf66b/samples/2/6ef3dac9e7722d1b383ae4b665a2638090036d38_unprompted_description=this-is-an-electronic-song-sending-positive-vibes[0m
+[[36m02-23 13:35:51[0m][[34maudiocraft.utils.samples.manager[0m][[33mWARNING[0m] - Overwriting existing audio file with stem path /nvme/amphion/zhfang/zja/xps/819cf66b/samples/2/b781e7798dc66bf7f9d053d2dff8e8701b5c0ef8_unprompted_description=this-is-an-electronic-song-sending-positive-vibes[0m
+[[36m02-23 13:35:53[0m][[34mflashy.solver[0m][[32mINFO[0m] - Generate | Epoch 2 | 5/13 | 0.34 it/sec[0m
+[[36m02-23 13:35:53[0m][[34maudiocraft.utils.samples.manager[0m][[33mWARNING[0m] - Overwriting existing audio file with stem path /nvme/amphion/zhfang/zja/xps/819cf66b/samples/2/2ed2312084a3bf805eb2d4364410e8f4aa020582_unprompted_description=a-cool-song-from-voyager[0m
+[[36m02-23 13:35:53[0m][[34maudiocraft.utils.samples.manager[0m][[33mWARNING[0m] - Overwriting existing audio file with stem path /nvme/amphion/zhfang/zja/xps/819cf66b/samples/2/865af00379dfc01040fec2d135325f4993761ada_unprompted_description=a-cool-song-from-voyager[0m
+[[36m02-23 13:35:53[0m][[34maudiocraft.utils.samples.manager[0m][[33mWARNING[0m] - Overwriting existing audio file with stem path /nvme/amphion/zhfang/zja/xps/819cf66b/samples/2/6ef3dac9e7722d1b383ae4b665a2638090036d38_unprompted_description=this-is-an-electronic-song-sending-positive-vibes[0m
+[[36m02-23 13:35:54[0m][[34maudiocraft.utils.samples.manager[0m][[33mWARNING[0m] - Overwriting existing audio file with stem path /nvme/amphion/zhfang/zja/xps/819cf66b/samples/2/b781e7798dc66bf7f9d053d2dff8e8701b5c0ef8_unprompted_description=this-is-an-electronic-song-sending-positive-vibes[0m
+[[36m02-23 13:35:55[0m][[34mflashy.solver[0m][[32mINFO[0m] - Generate | Epoch 2 | 6/13 | 0.35 it/sec[0m
+[[36m02-23 13:35:55[0m][[34maudiocraft.utils.samples.manager[0m][[33mWARNING[0m] - Overwriting existing audio file with stem path /nvme/amphion/zhfang/zja/xps/819cf66b/samples/2/701d64d8da3c1aeb32677569efdebd7152e3c9f9_unprompted_description=this-is-an-electronic-song-sending-positive-vibes[0m
+[[36m02-23 13:35:55[0m][[34maudiocraft.utils.samples.manager[0m][[33mWARNING[0m] - Overwriting existing audio file with stem path /nvme/amphion/zhfang/zja/xps/819cf66b/samples/2/39ed1de191331283bff003300245d51a6003d131_unprompted_description=this-is-an-electronic-song-sending-positive-vibes[0m
+[[36m02-23 13:35:56[0m][[34maudiocraft.utils.samples.manager[0m][[33mWARNING[0m] - Overwriting existing audio file with stem path /nvme/amphion/zhfang/zja/xps/819cf66b/samples/2/6ef3dac9e7722d1b383ae4b665a2638090036d38_unprompted_description=this-is-an-electronic-song-sending-positive-vibes[0m
+[[36m02-23 13:35:56[0m][[34maudiocraft.utils.samples.manager[0m][[33mWARNING[0m] - Overwriting existing audio file with stem path /nvme/amphion/zhfang/zja/xps/819cf66b/samples/2/c7d6f97696849dc4fc78b0e25125baba9f490e30_unprompted_description=a-cool-song-from-voyager[0m
+[[36m02-23 13:35:57[0m][[34mflashy.solver[0m][[32mINFO[0m] - Generate | Epoch 2 | 7/13 | 0.36 it/sec[0m
+[[36m02-23 13:35:57[0m][[34maudiocraft.utils.samples.manager[0m][[33mWARNING[0m] - Overwriting existing audio file with stem path /nvme/amphion/zhfang/zja/xps/819cf66b/samples/2/701d64d8da3c1aeb32677569efdebd7152e3c9f9_unprompted_description=this-is-an-electronic-song-sending-positive-vibes[0m
+[[36m02-23 13:35:57[0m][[34maudiocraft.utils.samples.manager[0m][[33mWARNING[0m] - Overwriting existing audio file with stem path /nvme/amphion/zhfang/zja/xps/819cf66b/samples/2/865af00379dfc01040fec2d135325f4993761ada_unprompted_description=a-cool-song-from-voyager[0m
+[[36m02-23 13:35:58[0m][[34maudiocraft.utils.samples.manager[0m][[33mWARNING[0m] - Overwriting existing audio file with stem path /nvme/amphion/zhfang/zja/xps/819cf66b/samples/2/6ef3dac9e7722d1b383ae4b665a2638090036d38_unprompted_description=this-is-an-electronic-song-sending-positive-vibes[0m
+[[36m02-23 13:35:58[0m][[34maudiocraft.utils.samples.manager[0m][[33mWARNING[0m] - Overwriting existing audio file with stem path /nvme/amphion/zhfang/zja/xps/819cf66b/samples/2/b781e7798dc66bf7f9d053d2dff8e8701b5c0ef8_unprompted_description=this-is-an-electronic-song-sending-positive-vibes[0m
+[[36m02-23 13:35:59[0m][[34mflashy.solver[0m][[32mINFO[0m] - Generate | Epoch 2 | 8/13 | 0.37 it/sec[0m
+[[36m02-23 13:35:59[0m][[34maudiocraft.utils.samples.manager[0m][[33mWARNING[0m] - Overwriting existing audio file with stem path /nvme/amphion/zhfang/zja/xps/819cf66b/samples/2/701d64d8da3c1aeb32677569efdebd7152e3c9f9_unprompted_description=this-is-an-electronic-song-sending-positive-vibes[0m
+[[36m02-23 13:36:00[0m][[34maudiocraft.utils.samples.manager[0m][[33mWARNING[0m] - Overwriting existing audio file with stem path /nvme/amphion/zhfang/zja/xps/819cf66b/samples/2/39ed1de191331283bff003300245d51a6003d131_unprompted_description=this-is-an-electronic-song-sending-positive-vibes[0m
+[[36m02-23 13:36:00[0m][[34maudiocraft.utils.samples.manager[0m][[33mWARNING[0m] - Overwriting existing audio file with stem path /nvme/amphion/zhfang/zja/xps/819cf66b/samples/2/6ef3dac9e7722d1b383ae4b665a2638090036d38_unprompted_description=this-is-an-electronic-song-sending-positive-vibes[0m
+[[36m02-23 13:36:00[0m][[34maudiocraft.utils.samples.manager[0m][[33mWARNING[0m] - Overwriting existing audio file with stem path /nvme/amphion/zhfang/zja/xps/819cf66b/samples/2/b781e7798dc66bf7f9d053d2dff8e8701b5c0ef8_unprompted_description=this-is-an-electronic-song-sending-positive-vibes[0m
+[[36m02-23 13:36:01[0m][[34mflashy.solver[0m][[32mINFO[0m] - Generate | Epoch 2 | 9/13 | 0.38 it/sec[0m
+[[36m02-23 13:36:02[0m][[34maudiocraft.utils.samples.manager[0m][[33mWARNING[0m] - Overwriting existing audio file with stem path /nvme/amphion/zhfang/zja/xps/819cf66b/samples/2/2ed2312084a3bf805eb2d4364410e8f4aa020582_unprompted_description=a-cool-song-from-voyager[0m
+[[36m02-23 13:36:02[0m][[34maudiocraft.utils.samples.manager[0m][[33mWARNING[0m] - Overwriting existing audio file with stem path /nvme/amphion/zhfang/zja/xps/819cf66b/samples/2/865af00379dfc01040fec2d135325f4993761ada_unprompted_description=a-cool-song-from-voyager[0m
+[[36m02-23 13:36:02[0m][[34maudiocraft.utils.samples.manager[0m][[33mWARNING[0m] - Overwriting existing audio file with stem path /nvme/amphion/zhfang/zja/xps/819cf66b/samples/2/6b1289ba4ff74aad6306774e9c27454b0f1fc292_unprompted_description=a-cool-song-from-voyager[0m
+[[36m02-23 13:36:02[0m][[34maudiocraft.utils.samples.manager[0m][[33mWARNING[0m] - Overwriting existing audio file with stem path /nvme/amphion/zhfang/zja/xps/819cf66b/samples/2/c7d6f97696849dc4fc78b0e25125baba9f490e30_unprompted_description=a-cool-song-from-voyager[0m
+[[36m02-23 13:36:03[0m][[34mflashy.solver[0m][[32mINFO[0m] - Generate | Epoch 2 | 10/13 | 0.39 it/sec[0m
+[[36m02-23 13:36:04[0m][[34maudiocraft.utils.samples.manager[0m][[33mWARNING[0m] - Overwriting existing audio file with stem path /nvme/amphion/zhfang/zja/xps/819cf66b/samples/2/2ed2312084a3bf805eb2d4364410e8f4aa020582_unprompted_description=a-cool-song-from-voyager[0m
+[[36m02-23 13:36:04[0m][[34maudiocraft.utils.samples.manager[0m][[33mWARNING[0m] - Overwriting existing audio file with stem path /nvme/amphion/zhfang/zja/xps/819cf66b/samples/2/39ed1de191331283bff003300245d51a6003d131_unprompted_description=this-is-an-electronic-song-sending-positive-vibes[0m
+[[36m02-23 13:36:04[0m][[34maudiocraft.utils.samples.manager[0m][[33mWARNING[0m] - Overwriting existing audio file with stem path /nvme/amphion/zhfang/zja/xps/819cf66b/samples/2/6ef3dac9e7722d1b383ae4b665a2638090036d38_unprompted_description=this-is-an-electronic-song-sending-positive-vibes[0m
+[[36m02-23 13:36:04[0m][[34maudiocraft.utils.samples.manager[0m][[33mWARNING[0m] - Overwriting existing audio file with stem path /nvme/amphion/zhfang/zja/xps/819cf66b/samples/2/b781e7798dc66bf7f9d053d2dff8e8701b5c0ef8_unprompted_description=this-is-an-electronic-song-sending-positive-vibes[0m
+[[36m02-23 13:36:06[0m][[34mflashy.solver[0m][[32mINFO[0m] - Generate | Epoch 2 | 11/13 | 0.39 it/sec[0m
+[[36m02-23 13:36:06[0m][[34maudiocraft.utils.samples.manager[0m][[33mWARNING[0m] - Overwriting existing audio file with stem path /nvme/amphion/zhfang/zja/xps/819cf66b/samples/2/2ed2312084a3bf805eb2d4364410e8f4aa020582_unprompted_description=a-cool-song-from-voyager[0m
+[[36m02-23 13:36:06[0m][[34maudiocraft.utils.samples.manager[0m][[33mWARNING[0m] - Overwriting existing audio file with stem path /nvme/amphion/zhfang/zja/xps/819cf66b/samples/2/865af00379dfc01040fec2d135325f4993761ada_unprompted_description=a-cool-song-from-voyager[0m
+[[36m02-23 13:36:07[0m][[34mflashy.solver[0m][[32mINFO[0m] - Generate | Epoch 2 | 12/13 | 0.41 it/sec[0m
+[[36m02-23 13:36:07[0m][[34mflashy.solver[0m][[32mINFO[0m] - [1mGenerate Summary | Epoch 2 | rtf=0.048 | duration=32.182[0m
+[[36m02-23 13:36:07[0m][[34mflashy.solver[0m][[32mINFO[0m] - Model hash: 6599497eca511f87ad5b619405b0954a56507651[0m
+[[36m02-23 13:36:07[0m][[34maudiocraft.utils.checkpoint[0m][[32mINFO[0m] - Checkpoint saved to /nvme/amphion/zhfang/zja/xps/819cf66b/checkpoint.th[0m
+Dora directory: /nvme/amphion/zhfang/zja
+/home/wangyuancheng.p/miniconda3/envs/audiocraft/lib/python3.9/site-packages/hydra/_internal/hydra.py:119: UserWarning: Future Hydra versions will no longer change working directory at job runtime by default.
+See https://hydra.cc/docs/1.2/upgrades/1.1_to_1.2/changes_to_job_working_dir/ for more information.
+  ret = run_job(
+[[36m02-23 13:42:46[0m][[34mdora.distrib[0m][[32mINFO[0m] - world_size is 1, skipping init.[0m
+[[36m02-23 13:42:46[0m][[34mtorch.distributed.nn.jit.instantiator[0m][[32mINFO[0m] - Created a temporary directory at /tmp/tmps4012a92[0m
+[[36m02-23 13:42:46[0m][[34mtorch.distributed.nn.jit.instantiator[0m][[32mINFO[0m] - Writing /tmp/tmps4012a92/_remote_module_non_scriptable.py[0m
+[[36m02-23 13:42:47[0m][[34mflashy.solver[0m][[32mINFO[0m] - Instantiating solver MusicGenSolver for XP 819cf66b[0m
+[[36m02-23 13:42:47[0m][[34mflashy.solver[0m][[32mINFO[0m] - All XP logs are stored in /nvme/amphion/zhfang/zja/xps/819cf66b[0m
+/home/wangyuancheng.p/miniconda3/envs/audiocraft/lib/python3.9/site-packages/flashy/loggers/tensorboard.py:47: UserWarning: tensorboard package was not found: use pip install tensorboard
+  warnings.warn("tensorboard package was not found: use pip install tensorboard")
+[[36m02-23 13:42:47[0m][[34maudiocraft.solvers.builders[0m][[32mINFO[0m] - Loading audio data split train: /home/wangyuancheng.p/zja/audiocraft/egs/example[0m
+[[36m02-23 13:42:47[0m][[34maudiocraft.solvers.builders[0m][[32mINFO[0m] - Loading audio data split valid: /home/wangyuancheng.p/zja/audiocraft/egs/example[0m
+[[36m02-23 13:42:47[0m][[34maudiocraft.solvers.builders[0m][[32mINFO[0m] - Loading audio data split evaluate: /home/wangyuancheng.p/zja/audiocraft/egs/example[0m
+[[36m02-23 13:42:47[0m][[34maudiocraft.solvers.builders[0m][[32mINFO[0m] - Loading audio data split generate: /home/wangyuancheng.p/zja/audiocraft/egs/example[0m
+[[36m02-23 13:42:47[0m][[34mroot[0m][[32mINFO[0m] - Getting pretrained compression model for debug[0m
+[[36m02-23 13:42:51[0m][[34mflashy.solver[0m][[32mINFO[0m] - Compression model has 4 codebooks with 400 cardinality, and a framerate of 25[0m
+[[36m02-23 13:42:51[0m][[34maudiocraft.modules.conditioners[0m][[32mINFO[0m] - T5 will be evaluated with autocast as float32[0m
+[[36m02-23 13:43:01[0m][[34mflashy.solver[0m][[32mINFO[0m] - Model hash: 9748ac40b484ad07324312d18ce0208d6139110c[0m
+[[36m02-23 13:43:01[0m][[34mflashy.solver[0m][[32mINFO[0m] - No EMA on the model.[0m
+[[36m02-23 13:43:01[0m][[34mflashy.solver[0m][[32mINFO[0m] - Model size: 0.37 M params[0m
+[[36m02-23 13:43:01[0m][[34mflashy.solver[0m][[32mINFO[0m] - Base memory usage, with model, grad and optim: 0.01 GB[0m
+[[36m02-23 13:43:01[0m][[34mflashy.solver[0m][[32mINFO[0m] - Restoring weights and history.[0m
+[[36m02-23 13:43:01[0m][[34mflashy.solver[0m][[32mINFO[0m] - Model hash: 9748ac40b484ad07324312d18ce0208d6139110c[0m
+/home/wangyuancheng.p/zja/audiocraft/audiocraft/solvers/musicgen.py:263: UserWarning: Up to version 1.0.1, the _prepare_tokens_and_attributes was evaluated with `torch.no_grad()`. This is inconsistent with how model were trained in the MusicGen paper. We removed the `torch.no_grad()` in version 1.1.0. Small changes to the final performance are expected. Really sorry about that.
+  warnings.warn(
+[[36m02-23 13:43:07[0m][[34maudiocraft.modules.codebooks_patterns[0m][[32mINFO[0m] - New pattern, time steps: 125, sequence steps: 126[0m
+/home/wangyuancheng.p/miniconda3/envs/audiocraft/lib/python3.9/site-packages/torch/cuda/__init__.py:762: UserWarning: Synchronization debug mode is a prototype feature and does not yet detect all synchronizing operations (Triggered internally at ../torch/csrc/cuda/Module.cpp:830.)
+  torch._C._cuda_set_sync_debug_mode(debug_mode)
+/home/wangyuancheng.p/zja/audiocraft/audiocraft/solvers/musicgen.py:237: UserWarning: called a synchronizing CUDA operation (Triggered internally at ../c10/cuda/CUDAFunctions.cpp:148.)
+  ce_targets = targets_k[mask_k]
+/home/wangyuancheng.p/zja/audiocraft/audiocraft/solvers/musicgen.py:238: UserWarning: called a synchronizing CUDA operation (Triggered internally at ../c10/cuda/CUDAFunctions.cpp:148.)
+  ce_logits = logits_k[mask_k]
+[[36m02-23 13:43:07[0m][[34mflashy.solver[0m][[32mINFO[0m] - Train | Epoch 1 | 1/10 | 0.36 it/sec | lr 1.00E-04 | grad_norm 4.160E+00 | ce 5.959 | ppl 387.919[0m
+[[36m02-23 13:43:07[0m][[34mflashy.solver[0m][[32mINFO[0m] - Train | Epoch 1 | 2/10 | 0.54 it/sec | lr 1.00E-04 | grad_norm 4.281E+00 | ce 5.874 | ppl 355.811[0m
+[[36m02-23 13:43:07[0m][[34mflashy.solver[0m][[32mINFO[0m] - Train | Epoch 1 | 3/10 | 0.72 it/sec | lr 1.00E-04 | grad_norm 4.034E+00 | ce 5.831 | ppl 340.562[0m
+[[36m02-23 13:43:07[0m][[34mflashy.solver[0m][[32mINFO[0m] - Train | Epoch 1 | 4/10 | 0.89 it/sec | lr 1.00E-04 | grad_norm 4.027E+00 | ce 5.771 | ppl 320.928[0m
+[[36m02-23 13:43:07[0m][[34mflashy.solver[0m][[32mINFO[0m] - Train | Epoch 1 | 5/10 | 1.06 it/sec | lr 1.00E-04 | grad_norm 4.097E+00 | ce 5.645 | ppl 282.939[0m
+[[36m02-23 13:43:07[0m][[34mflashy.solver[0m][[32mINFO[0m] - Train | Epoch 1 | 6/10 | 1.24 it/sec | lr 1.00E-04 | grad_norm 3.856E+00 | ce 5.632 | ppl 279.248[0m
+[[36m02-23 13:43:07[0m][[34mflashy.solver[0m][[32mINFO[0m] - Train | Epoch 1 | 7/10 | 1.41 it/sec | lr 1.00E-04 | grad_norm 3.880E+00 | ce 5.550 | ppl 257.301[0m
+[[36m02-23 13:43:07[0m][[34mflashy.solver[0m][[32mINFO[0m] - Train | Epoch 1 | 8/10 | 1.58 it/sec | lr 1.00E-04 | grad_norm 3.867E+00 | ce 5.498 | ppl 244.263[0m
+[[36m02-23 13:43:07[0m][[34mflashy.solver[0m][[32mINFO[0m] - Train | Epoch 1 | 9/10 | 1.74 it/sec | lr 1.00E-04 | grad_norm 3.804E+00 | ce 5.400 | ppl 221.465[0m
+[[36m02-23 13:43:07[0m][[34mflashy.solver[0m][[32mINFO[0m] - [1mTrain Summary | Epoch 1 | lr=1.00E-04 | grad_norm=4.017E+00 | ce=5.712 | ppl=307.836 | duration=6.241[0m
+[[36m02-23 13:43:17[0m][[34mflashy.solver[0m][[32mINFO[0m] - Valid | Epoch 1 | 250/2500 | 26.06 it/sec | ce 5.359 | ppl 212.457[0m
+[[36m02-23 13:43:22[0m][[34mflashy.solver[0m][[32mINFO[0m] - Valid | Epoch 1 | 500/2500 | 34.29 it/sec | ce 5.357 | ppl 212.133[0m
+[[36m02-23 13:43:27[0m][[34mflashy.solver[0m][[32mINFO[0m] - Valid | Epoch 1 | 750/2500 | 38.18 it/sec | ce 5.359 | ppl 212.490[0m
+[[36m02-23 13:43:32[0m][[34mflashy.solver[0m][[32mINFO[0m] - Valid | Epoch 1 | 1000/2500 | 40.02 it/sec | ce 5.355 | ppl 211.798[0m
+[[36m02-23 13:43:37[0m][[34mflashy.solver[0m][[32mINFO[0m] - Valid | Epoch 1 | 1250/2500 | 41.57 it/sec | ce 5.356 | ppl 211.982[0m
+[[36m02-23 13:43:43[0m][[34mflashy.solver[0m][[32mINFO[0m] - Valid | Epoch 1 | 1500/2500 | 42.20 it/sec | ce 5.356 | ppl 211.983[0m
+[[36m02-23 13:43:48[0m][[34mflashy.solver[0m][[32mINFO[0m] - Valid | Epoch 1 | 1750/2500 | 42.92 it/sec | ce 5.355 | ppl 211.711[0m
+[[36m02-23 13:43:53[0m][[34mflashy.solver[0m][[32mINFO[0m] - Valid | Epoch 1 | 2000/2500 | 43.30 it/sec | ce 5.357 | ppl 212.076[0m
+[[36m02-23 13:43:58[0m][[34mflashy.solver[0m][[32mINFO[0m] - Valid | Epoch 1 | 2250/2500 | 43.91 it/sec | ce 5.355 | ppl 211.762[0m
+[[36m02-23 13:44:04[0m][[34mflashy.solver[0m][[32mINFO[0m] - [1mValid Summary | Epoch 1 | ce=5.356 | ppl=212.007 | duration=56.523[0m
+[[36m02-23 13:44:04[0m][[34mflashy.solver[0m][[32mINFO[0m] - New best state with ce=5.356 (was inf)[0m
+[[36m02-23 13:44:04[0m][[34mflashy.solver[0m][[32mINFO[0m] - Model hash: 096ee1711eb7714b8974fab586fe39a28dfd283a[0m
+[[36m02-23 13:44:04[0m][[34maudiocraft.utils.checkpoint[0m][[32mINFO[0m] - Checkpoint saved to /nvme/amphion/zhfang/zja/xps/819cf66b/checkpoint.th[0m
+[[36m02-23 13:44:08[0m][[34mflashy.solver[0m][[32mINFO[0m] - Train | Epoch 2 | 1/10 | 0.47 it/sec | lr 1.00E-04 | grad_norm 3.638E+00 | ce 5.332 | ppl 207.062[0m
+[[36m02-23 13:44:08[0m][[34mflashy.solver[0m][[32mINFO[0m] - Train | Epoch 2 | 2/10 | 0.70 it/sec | lr 1.00E-04 | grad_norm 3.540E+00 | ce 5.239 | ppl 188.396[0m
+[[36m02-23 13:44:08[0m][[34mflashy.solver[0m][[32mINFO[0m] - Train | Epoch 2 | 3/10 | 0.93 it/sec | lr 1.00E-04 | grad_norm 3.851E+00 | ce 5.158 | ppl 173.881[0m
+[[36m02-23 13:44:08[0m][[34mflashy.solver[0m][[32mINFO[0m] - Train | Epoch 2 | 4/10 | 1.16 it/sec | lr 1.00E-04 | grad_norm 3.420E+00 | ce 5.193 | ppl 179.995[0m
+[[36m02-23 13:44:08[0m][[34mflashy.solver[0m][[32mINFO[0m] - Train | Epoch 2 | 5/10 | 1.38 it/sec | lr 1.00E-04 | grad_norm 3.474E+00 | ce 5.070 | ppl 159.178[0m
+[[36m02-23 13:44:08[0m][[34mflashy.solver[0m][[32mINFO[0m] - Train | Epoch 2 | 6/10 | 1.59 it/sec | lr 1.00E-04 | grad_norm 3.477E+00 | ce 5.048 | ppl 155.671[0m
+[[36m02-23 13:44:08[0m][[34mflashy.solver[0m][[32mINFO[0m] - Train | Epoch 2 | 7/10 | 1.80 it/sec | lr 1.00E-04 | grad_norm 3.357E+00 | ce 4.952 | ppl 141.517[0m
+[[36m02-23 13:44:08[0m][[34mflashy.solver[0m][[32mINFO[0m] - Train | Epoch 2 | 8/10 | 2.02 it/sec | lr 1.00E-04 | grad_norm 3.481E+00 | ce 4.940 | ppl 139.720[0m
+[[36m02-23 13:44:08[0m][[34mflashy.solver[0m][[32mINFO[0m] - Train | Epoch 2 | 9/10 | 2.23 it/sec | lr 1.00E-04 | grad_norm 3.430E+00 | ce 4.833 | ppl 125.630[0m
+[[36m02-23 13:44:09[0m][[34mflashy.solver[0m][[32mINFO[0m] - [1mTrain Summary | Epoch 2 | lr=1.00E-04 | grad_norm=3.531E+00 | ce=5.110 | ppl=167.811 | duration=4.884[0m
+[[36m02-23 13:44:19[0m][[34mflashy.solver[0m][[32mINFO[0m] - Valid | Epoch 2 | 250/2500 | 24.44 it/sec | ce 4.838 | ppl 126.332[0m
+[[36m02-23 13:44:24[0m][[34mflashy.solver[0m][[32mINFO[0m] - Valid | Epoch 2 | 500/2500 | 32.62 it/sec | ce 4.836 | ppl 125.964[0m
+[[36m02-23 13:44:29[0m][[34mflashy.solver[0m][[32mINFO[0m] - Valid | Epoch 2 | 750/2500 | 36.60 it/sec | ce 4.839 | ppl 126.346[0m
+[[36m02-23 13:44:35[0m][[34mflashy.solver[0m][[32mINFO[0m] - Valid | Epoch 2 | 1000/2500 | 38.39 it/sec | ce 4.833 | ppl 125.620[0m
+[[36m02-23 13:44:40[0m][[34mflashy.solver[0m][[32mINFO[0m] - Valid | Epoch 2 | 1250/2500 | 39.60 it/sec | ce 4.835 | ppl 125.942[0m
+[[36m02-23 13:44:46[0m][[34mflashy.solver[0m][[32mINFO[0m] - Valid | Epoch 2 | 1500/2500 | 40.29 it/sec | ce 4.836 | ppl 125.997[0m
+[[36m02-23 13:44:51[0m][[34mflashy.solver[0m][[32mINFO[0m] - Valid | Epoch 2 | 1750/2500 | 41.30 it/sec | ce 4.833 | ppl 125.638[0m
+[[36m02-23 13:44:56[0m][[34mflashy.solver[0m][[32mINFO[0m] - Valid | Epoch 2 | 2000/2500 | 41.99 it/sec | ce 4.835 | ppl 125.845[0m
+[[36m02-23 13:45:02[0m][[34mflashy.solver[0m][[32mINFO[0m] - Valid | Epoch 2 | 2250/2500 | 42.35 it/sec | ce 4.833 | ppl 125.661[0m
+[[36m02-23 13:45:07[0m][[34mflashy.solver[0m][[32mINFO[0m] - [1mValid Summary | Epoch 2 | ce=4.835 | ppl=125.891 | duration=58.564[0m
+[[36m02-23 13:45:07[0m][[34mflashy.solver[0m][[32mINFO[0m] - New best state with ce=4.835 (was 5.356)[0m
+[[36m02-23 13:45:07[0m][[34mflashy.solver[0m][[32mINFO[0m] - [1mEvaluate Summary | Epoch 2 | duration=0.000[0m
+[[36m02-23 13:45:07[0m][[34mflashy.solver[0m][[32mINFO[0m] - Generating samples in /nvme/amphion/zhfang/zja/xps/819cf66b/samples[0m
+[[36m02-23 13:45:14[0m][[34maudiocraft.utils.samples.manager[0m][[33mWARNING[0m] - Overwriting existing audio file with stem path /nvme/amphion/zhfang/zja/xps/819cf66b/samples/2/2ed2312084a3bf805eb2d4364410e8f4aa020582_unprompted_description=a-cool-song-from-voyager[0m
+[[36m02-23 13:45:15[0m][[34maudiocraft.utils.samples.manager[0m][[33mWARNING[0m] - Overwriting existing audio file with stem path /nvme/amphion/zhfang/zja/xps/819cf66b/samples/2/39ed1de191331283bff003300245d51a6003d131_unprompted_description=this-is-an-electronic-song-sending-positive-vibes[0m
+[[36m02-23 13:45:15[0m][[34maudiocraft.utils.samples.manager[0m][[33mWARNING[0m] - Overwriting existing audio file with stem path /nvme/amphion/zhfang/zja/xps/819cf66b/samples/2/6b1289ba4ff74aad6306774e9c27454b0f1fc292_unprompted_description=a-cool-song-from-voyager[0m
+[[36m02-23 13:45:17[0m][[34mflashy.solver[0m][[32mINFO[0m] - Generate | Epoch 2 | 1/13 | 0.21 it/sec[0m
+[[36m02-23 13:45:18[0m][[34maudiocraft.utils.samples.manager[0m][[33mWARNING[0m] - Overwriting existing audio file with stem path /nvme/amphion/zhfang/zja/xps/819cf66b/samples/2/b781e7798dc66bf7f9d053d2dff8e8701b5c0ef8_unprompted_description=this-is-an-electronic-song-sending-positive-vibes[0m
+[[36m02-23 13:45:19[0m][[34mflashy.solver[0m][[32mINFO[0m] - Generate | Epoch 2 | 2/13 | 0.25 it/sec[0m
+[[36m02-23 13:45:19[0m][[34maudiocraft.utils.samples.manager[0m][[33mWARNING[0m] - Overwriting existing audio file with stem path /nvme/amphion/zhfang/zja/xps/819cf66b/samples/2/701d64d8da3c1aeb32677569efdebd7152e3c9f9_unprompted_description=this-is-an-electronic-song-sending-positive-vibes[0m
+[[36m02-23 13:45:20[0m][[34maudiocraft.utils.samples.manager[0m][[33mWARNING[0m] - Overwriting existing audio file with stem path /nvme/amphion/zhfang/zja/xps/819cf66b/samples/2/865af00379dfc01040fec2d135325f4993761ada_unprompted_description=a-cool-song-from-voyager[0m
+[[36m02-23 13:45:20[0m][[34maudiocraft.utils.samples.manager[0m][[33mWARNING[0m] - Overwriting existing audio file with stem path /nvme/amphion/zhfang/zja/xps/819cf66b/samples/2/6ef3dac9e7722d1b383ae4b665a2638090036d38_unprompted_description=this-is-an-electronic-song-sending-positive-vibes[0m
+[[36m02-23 13:45:20[0m][[34maudiocraft.utils.samples.manager[0m][[33mWARNING[0m] - Overwriting existing audio file with stem path /nvme/amphion/zhfang/zja/xps/819cf66b/samples/2/c7d6f97696849dc4fc78b0e25125baba9f490e30_unprompted_description=a-cool-song-from-voyager[0m
+[[36m02-23 13:45:21[0m][[34mflashy.solver[0m][[32mINFO[0m] - Generate | Epoch 2 | 3/13 | 0.28 it/sec[0m
+[[36m02-23 13:45:22[0m][[34maudiocraft.utils.samples.manager[0m][[33mWARNING[0m] - Overwriting existing audio file with stem path /nvme/amphion/zhfang/zja/xps/819cf66b/samples/2/701d64d8da3c1aeb32677569efdebd7152e3c9f9_unprompted_description=this-is-an-electronic-song-sending-positive-vibes[0m
+[[36m02-23 13:45:22[0m][[34maudiocraft.utils.samples.manager[0m][[33mWARNING[0m] - Overwriting existing audio file with stem path /nvme/amphion/zhfang/zja/xps/819cf66b/samples/2/39ed1de191331283bff003300245d51a6003d131_unprompted_description=this-is-an-electronic-song-sending-positive-vibes[0m
+[[36m02-23 13:45:22[0m][[34maudiocraft.utils.samples.manager[0m][[33mWARNING[0m] - Overwriting existing audio file with stem path /nvme/amphion/zhfang/zja/xps/819cf66b/samples/2/6b1289ba4ff74aad6306774e9c27454b0f1fc292_unprompted_description=a-cool-song-from-voyager[0m
+[[36m02-23 13:45:23[0m][[34maudiocraft.utils.samples.manager[0m][[33mWARNING[0m] - Overwriting existing audio file with stem path /nvme/amphion/zhfang/zja/xps/819cf66b/samples/2/b781e7798dc66bf7f9d053d2dff8e8701b5c0ef8_unprompted_description=this-is-an-electronic-song-sending-positive-vibes[0m
+[[36m02-23 13:45:24[0m][[34mflashy.solver[0m][[32mINFO[0m] - Generate | Epoch 2 | 4/13 | 0.30 it/sec[0m
+[[36m02-23 13:45:24[0m][[34maudiocraft.utils.samples.manager[0m][[33mWARNING[0m] - Overwriting existing audio file with stem path /nvme/amphion/zhfang/zja/xps/819cf66b/samples/2/701d64d8da3c1aeb32677569efdebd7152e3c9f9_unprompted_description=this-is-an-electronic-song-sending-positive-vibes[0m
+[[36m02-23 13:45:24[0m][[34maudiocraft.utils.samples.manager[0m][[33mWARNING[0m] - Overwriting existing audio file with stem path /nvme/amphion/zhfang/zja/xps/819cf66b/samples/2/39ed1de191331283bff003300245d51a6003d131_unprompted_description=this-is-an-electronic-song-sending-positive-vibes[0m
+[[36m02-23 13:45:25[0m][[34maudiocraft.utils.samples.manager[0m][[33mWARNING[0m] - Overwriting existing audio file with stem path /nvme/amphion/zhfang/zja/xps/819cf66b/samples/2/6ef3dac9e7722d1b383ae4b665a2638090036d38_unprompted_description=this-is-an-electronic-song-sending-positive-vibes[0m
+[[36m02-23 13:45:25[0m][[34maudiocraft.utils.samples.manager[0m][[33mWARNING[0m] - Overwriting existing audio file with stem path /nvme/amphion/zhfang/zja/xps/819cf66b/samples/2/b781e7798dc66bf7f9d053d2dff8e8701b5c0ef8_unprompted_description=this-is-an-electronic-song-sending-positive-vibes[0m
+[[36m02-23 13:45:26[0m][[34mflashy.solver[0m][[32mINFO[0m] - Generate | Epoch 2 | 5/13 | 0.32 it/sec[0m
+[[36m02-23 13:45:27[0m][[34maudiocraft.utils.samples.manager[0m][[33mWARNING[0m] - Overwriting existing audio file with stem path /nvme/amphion/zhfang/zja/xps/819cf66b/samples/2/2ed2312084a3bf805eb2d4364410e8f4aa020582_unprompted_description=a-cool-song-from-voyager[0m
+[[36m02-23 13:45:27[0m][[34maudiocraft.utils.samples.manager[0m][[33mWARNING[0m] - Overwriting existing audio file with stem path /nvme/amphion/zhfang/zja/xps/819cf66b/samples/2/865af00379dfc01040fec2d135325f4993761ada_unprompted_description=a-cool-song-from-voyager[0m
+[[36m02-23 13:45:27[0m][[34maudiocraft.utils.samples.manager[0m][[33mWARNING[0m] - Overwriting existing audio file with stem path /nvme/amphion/zhfang/zja/xps/819cf66b/samples/2/6ef3dac9e7722d1b383ae4b665a2638090036d38_unprompted_description=this-is-an-electronic-song-sending-positive-vibes[0m
+[[36m02-23 13:45:27[0m][[34maudiocraft.utils.samples.manager[0m][[33mWARNING[0m] - Overwriting existing audio file with stem path /nvme/amphion/zhfang/zja/xps/819cf66b/samples/2/b781e7798dc66bf7f9d053d2dff8e8701b5c0ef8_unprompted_description=this-is-an-electronic-song-sending-positive-vibes[0m
+[[36m02-23 13:45:29[0m][[34mflashy.solver[0m][[32mINFO[0m] - Generate | Epoch 2 | 6/13 | 0.33 it/sec[0m
+[[36m02-23 13:45:29[0m][[34maudiocraft.utils.samples.manager[0m][[33mWARNING[0m] - Overwriting existing audio file with stem path /nvme/amphion/zhfang/zja/xps/819cf66b/samples/2/701d64d8da3c1aeb32677569efdebd7152e3c9f9_unprompted_description=this-is-an-electronic-song-sending-positive-vibes[0m
+[[36m02-23 13:45:29[0m][[34maudiocraft.utils.samples.manager[0m][[33mWARNING[0m] - Overwriting existing audio file with stem path /nvme/amphion/zhfang/zja/xps/819cf66b/samples/2/39ed1de191331283bff003300245d51a6003d131_unprompted_description=this-is-an-electronic-song-sending-positive-vibes[0m
+[[36m02-23 13:45:29[0m][[34maudiocraft.utils.samples.manager[0m][[33mWARNING[0m] - Overwriting existing audio file with stem path /nvme/amphion/zhfang/zja/xps/819cf66b/samples/2/6ef3dac9e7722d1b383ae4b665a2638090036d38_unprompted_description=this-is-an-electronic-song-sending-positive-vibes[0m
+[[36m02-23 13:45:30[0m][[34maudiocraft.utils.samples.manager[0m][[33mWARNING[0m] - Overwriting existing audio file with stem path /nvme/amphion/zhfang/zja/xps/819cf66b/samples/2/c7d6f97696849dc4fc78b0e25125baba9f490e30_unprompted_description=a-cool-song-from-voyager[0m
+[[36m02-23 13:45:31[0m][[34mflashy.solver[0m][[32mINFO[0m] - Generate | Epoch 2 | 7/13 | 0.34 it/sec[0m
+[[36m02-23 13:45:31[0m][[34maudiocraft.utils.samples.manager[0m][[33mWARNING[0m] - Overwriting existing audio file with stem path /nvme/amphion/zhfang/zja/xps/819cf66b/samples/2/701d64d8da3c1aeb32677569efdebd7152e3c9f9_unprompted_description=this-is-an-electronic-song-sending-positive-vibes[0m
+[[36m02-23 13:45:32[0m][[34maudiocraft.utils.samples.manager[0m][[33mWARNING[0m] - Overwriting existing audio file with stem path /nvme/amphion/zhfang/zja/xps/819cf66b/samples/2/865af00379dfc01040fec2d135325f4993761ada_unprompted_description=a-cool-song-from-voyager[0m
+[[36m02-23 13:45:32[0m][[34maudiocraft.utils.samples.manager[0m][[33mWARNING[0m] - Overwriting existing audio file with stem path /nvme/amphion/zhfang/zja/xps/819cf66b/samples/2/6ef3dac9e7722d1b383ae4b665a2638090036d38_unprompted_description=this-is-an-electronic-song-sending-positive-vibes[0m
+[[36m02-23 13:45:32[0m][[34maudiocraft.utils.samples.manager[0m][[33mWARNING[0m] - Overwriting existing audio file with stem path /nvme/amphion/zhfang/zja/xps/819cf66b/samples/2/b781e7798dc66bf7f9d053d2dff8e8701b5c0ef8_unprompted_description=this-is-an-electronic-song-sending-positive-vibes[0m
+[[36m02-23 13:45:33[0m][[34mflashy.solver[0m][[32mINFO[0m] - Generate | Epoch 2 | 8/13 | 0.34 it/sec[0m
+[[36m02-23 13:45:34[0m][[34maudiocraft.utils.samples.manager[0m][[33mWARNING[0m] - Overwriting existing audio file with stem path /nvme/amphion/zhfang/zja/xps/819cf66b/samples/2/701d64d8da3c1aeb32677569efdebd7152e3c9f9_unprompted_description=this-is-an-electronic-song-sending-positive-vibes[0m
+[[36m02-23 13:45:34[0m][[34maudiocraft.utils.samples.manager[0m][[33mWARNING[0m] - Overwriting existing audio file with stem path /nvme/amphion/zhfang/zja/xps/819cf66b/samples/2/39ed1de191331283bff003300245d51a6003d131_unprompted_description=this-is-an-electronic-song-sending-positive-vibes[0m
+[[36m02-23 13:45:34[0m][[34maudiocraft.utils.samples.manager[0m][[33mWARNING[0m] - Overwriting existing audio file with stem path /nvme/amphion/zhfang/zja/xps/819cf66b/samples/2/6ef3dac9e7722d1b383ae4b665a2638090036d38_unprompted_description=this-is-an-electronic-song-sending-positive-vibes[0m
+[[36m02-23 13:45:34[0m][[34maudiocraft.utils.samples.manager[0m][[33mWARNING[0m] - Overwriting existing audio file with stem path /nvme/amphion/zhfang/zja/xps/819cf66b/samples/2/b781e7798dc66bf7f9d053d2dff8e8701b5c0ef8_unprompted_description=this-is-an-electronic-song-sending-positive-vibes[0m
+[[36m02-23 13:45:36[0m][[34mflashy.solver[0m][[32mINFO[0m] - Generate | Epoch 2 | 9/13 | 0.35 it/sec[0m
+[[36m02-23 13:45:36[0m][[34maudiocraft.utils.samples.manager[0m][[33mWARNING[0m] - Overwriting existing audio file with stem path /nvme/amphion/zhfang/zja/xps/819cf66b/samples/2/2ed2312084a3bf805eb2d4364410e8f4aa020582_unprompted_description=a-cool-song-from-voyager[0m
+[[36m02-23 13:45:36[0m][[34maudiocraft.utils.samples.manager[0m][[33mWARNING[0m] - Overwriting existing audio file with stem path /nvme/amphion/zhfang/zja/xps/819cf66b/samples/2/865af00379dfc01040fec2d135325f4993761ada_unprompted_description=a-cool-song-from-voyager[0m
+[[36m02-23 13:45:37[0m][[34maudiocraft.utils.samples.manager[0m][[33mWARNING[0m] - Overwriting existing audio file with stem path /nvme/amphion/zhfang/zja/xps/819cf66b/samples/2/6b1289ba4ff74aad6306774e9c27454b0f1fc292_unprompted_description=a-cool-song-from-voyager[0m
+[[36m02-23 13:45:37[0m][[34maudiocraft.utils.samples.manager[0m][[33mWARNING[0m] - Overwriting existing audio file with stem path /nvme/amphion/zhfang/zja/xps/819cf66b/samples/2/c7d6f97696849dc4fc78b0e25125baba9f490e30_unprompted_description=a-cool-song-from-voyager[0m
+[[36m02-23 13:45:38[0m][[34mflashy.solver[0m][[32mINFO[0m] - Generate | Epoch 2 | 10/13 | 0.36 it/sec[0m
+[[36m02-23 13:45:39[0m][[34maudiocraft.utils.samples.manager[0m][[33mWARNING[0m] - Overwriting existing audio file with stem path /nvme/amphion/zhfang/zja/xps/819cf66b/samples/2/2ed2312084a3bf805eb2d4364410e8f4aa020582_unprompted_description=a-cool-song-from-voyager[0m
+[[36m02-23 13:45:39[0m][[34maudiocraft.utils.samples.manager[0m][[33mWARNING[0m] - Overwriting existing audio file with stem path /nvme/amphion/zhfang/zja/xps/819cf66b/samples/2/39ed1de191331283bff003300245d51a6003d131_unprompted_description=this-is-an-electronic-song-sending-positive-vibes[0m
+[[36m02-23 13:45:39[0m][[34maudiocraft.utils.samples.manager[0m][[33mWARNING[0m] - Overwriting existing audio file with stem path /nvme/amphion/zhfang/zja/xps/819cf66b/samples/2/6ef3dac9e7722d1b383ae4b665a2638090036d38_unprompted_description=this-is-an-electronic-song-sending-positive-vibes[0m
+[[36m02-23 13:45:39[0m][[34maudiocraft.utils.samples.manager[0m][[33mWARNING[0m] - Overwriting existing audio file with stem path /nvme/amphion/zhfang/zja/xps/819cf66b/samples/2/b781e7798dc66bf7f9d053d2dff8e8701b5c0ef8_unprompted_description=this-is-an-electronic-song-sending-positive-vibes[0m
+[[36m02-23 13:45:41[0m][[34mflashy.solver[0m][[32mINFO[0m] - Generate | Epoch 2 | 11/13 | 0.36 it/sec[0m
+[[36m02-23 13:45:41[0m][[34maudiocraft.utils.samples.manager[0m][[33mWARNING[0m] - Overwriting existing audio file with stem path /nvme/amphion/zhfang/zja/xps/819cf66b/samples/2/2ed2312084a3bf805eb2d4364410e8f4aa020582_unprompted_description=a-cool-song-from-voyager[0m
+[[36m02-23 13:45:41[0m][[34maudiocraft.utils.samples.manager[0m][[33mWARNING[0m] - Overwriting existing audio file with stem path /nvme/amphion/zhfang/zja/xps/819cf66b/samples/2/865af00379dfc01040fec2d135325f4993761ada_unprompted_description=a-cool-song-from-voyager[0m
+[[36m02-23 13:45:42[0m][[34mflashy.solver[0m][[32mINFO[0m] - Generate | Epoch 2 | 12/13 | 0.37 it/sec[0m
+[[36m02-23 13:45:42[0m][[34mflashy.solver[0m][[32mINFO[0m] - [1mGenerate Summary | Epoch 2 | rtf=0.048 | duration=34.936[0m
+[[36m02-23 13:45:42[0m][[34mflashy.solver[0m][[32mINFO[0m] - Model hash: 92a9cb9cc223692769c8bc7b5a785f3172e7440f[0m
+[[36m02-23 13:45:42[0m][[34maudiocraft.utils.checkpoint[0m][[32mINFO[0m] - Checkpoint saved to /nvme/amphion/zhfang/zja/xps/819cf66b/checkpoint.th[0m

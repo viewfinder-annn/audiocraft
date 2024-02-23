@@ -1,5 +1,5 @@
 default:
-  dora_dir: /tmp/audiocraft_${oc.env:USER}
+  dora_dir: /nvme/amphion/zhfang/zja
   partitions:
     global: debug
     team: debug
